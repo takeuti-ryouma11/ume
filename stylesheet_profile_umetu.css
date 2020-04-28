@@ -1,0 +1,130 @@
+/*ヘッダー*/
+.header {
+  position:fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.header-logo span {
+  font-size: 15px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  padding:  10px 25px;
+  font-family: serif;
+}
+
+/*メイン*/
+.main {
+
+
+}
+
+.main-haikei {
+  height: 830px;
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.profile {
+  padding: 100px;
+  background-color: #D2B48C;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.profile-cover {
+  background-color: white;
+}
+
+.profile-top {
+  width: 33%;
+  float: left;
+  padding: 60px;
+}
+
+.profile-container {
+
+  padding: 60px;
+}
+
+.profile-name{
+  border-bottom: 1px solid black;
+}
+.profile-kozin {
+  border-bottom: 1px solid black;
+}
+
+.profile-kozin li {
+  list-style: none;
+}
+
+.profile-syoukai {
+  padding-top: 20px;
+}
+
+.photo-gallery {
+  padding: 100px;
+  background-color: #D2B48C;
+}
+
+.photo-container {
+  height: 600px;
+  background-color: white;
+  padding: 60px;
+}
+
+.gallery-1 {
+  width: 50%;
+  float: left;
+  background-color: blue;
+}
+
+.gallery-2 {
+  width: 50%;
+  float: left;
+}
+
+.gallery-3 {
+  width: 33.3%;
+  float: left;
+
+}
+
+.gallery-4 {
+  width: 33.3%;
+  float: left;
+}
+
+.gallery-5 {
+
+  width: 33.3%;
+  float: left;
+}
+
+
+/*フッター*/
+.footer{
+
+}
